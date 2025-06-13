@@ -2,7 +2,7 @@
 
 
 
-#INSTALL (FOR WINDOWS)
+## INSTALL (FOR WINDOWS)
 
 - Create virtual environment:
  
