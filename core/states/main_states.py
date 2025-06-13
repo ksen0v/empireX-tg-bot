@@ -1,12 +1,19 @@
 from aiogram.fsm.state import StatesGroup, State
 
-class BillStates(StatesGroup):
-    amount = State()
-    photo = State()
 
-class Abstract(StatesGroup):
-    temp = State()
+class FormData(StatesGroup):
+    name = State()
+    age = State()
+    country = State()
+    experience = State()
+    duration = State()
+    schedule = State()
+    payment = State()
+    projects = State()
+    wallet = State()
+    email = State()
+    device = State()
 
-class Calc(StatesGroup):
-    calc1 = State()
-    calc2 = State()
+
+class Spam(StatesGroup):
+    text = State()
